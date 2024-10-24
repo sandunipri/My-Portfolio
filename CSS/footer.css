@@ -1,0 +1,95 @@
+.footer {
+  /* width: 100%;
+  height: 500px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+.footerline {
+  display: flex;
+  flex-direction: row;
+  column-gap: 70px;
+  align-items: center;
+  justify-content: center;
+}
+.follow {
+  margin: 0;
+  font-size: 100px;
+  color: white;
+  font-family: "Arima", cursive;
+}
+
+.footerIcon {
+  margin: 0;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family: "Arima", cursive;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  column-gap: 30px;
+}
+.lastLine{
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: rgb(252, 248, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactMe {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* row-gap: 20px; */
+    color: rgb(15, 75, 125);
+    text-align: center;
+  }
+  .contact {
+    font-size: 100px;
+    margin: 0;
+  }
+  .contact-para {
+    font-size: 30px;
+    margin: 0;
+  }
+  label {
+    display: block;
+    color: rgb(78, 135, 186);
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 80%;
+    border: 1px solid #3a7edd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    resize: none;
+  }
+
+  .sendButton {
+    background-color: rgb(156, 132, 246);
+    color: black;
+    width: 40%;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    border-radius: 40px;
+  }

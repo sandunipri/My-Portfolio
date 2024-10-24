@@ -1,0 +1,52 @@
+.services {
+  width: 80%;
+  height: auto;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 20%,
+    rgba(9, 9, 121, 1) 85%,
+    rgb(140, 47, 222) 100%
+  );
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 50px;
+  padding: 0 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.topicService {
+  text-align: center;
+  font-size: 130px;
+  margin: 20px 0;
+  font-family: "Arima", cursive;
+  color: aliceblue;
+}
+.rectangle,
+.rectangle-1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.rectangle-1 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.title {
+  color: aliceblue;
+  font-size: 40px;
+}
+.para {
+  color: aliceblue;
+  font-size: 20px;
+}
