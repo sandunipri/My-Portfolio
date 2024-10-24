@@ -22,7 +22,7 @@ body {
 
 .page {
   width: 80%;
-  height: calc(100vh - 120px);
+  height: calc(100vh - 100px);
   background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 20%,
