@@ -1,0 +1,93 @@
+.AboutPge {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+  text-align: center;
+}
+.dec {
+  width: 50%;
+  height: calc(100vh - 150px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro {
+  width: 50%;
+  height: calc(100vh - 150px);
+}
+#picture-about {
+  width: 75%;
+  height: 85%;
+  object-fit: cover;
+  border-radius: 50%;
+  /* border: 5px solid white; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+  /* z-index: 1; */
+}
+#about {
+  font-size: 100px;
+  margin-top: 50px;
+}
+.button-contact {
+  width: 120px;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 425px) {
+  .AboutPge {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .page {
+    width: 80%;
+    height: calc(100vh - 150px);
+    padding: 0 20px;
+    border-radius: 20px;
+  }
+  .dec {
+    width: 60%;
+    height: calc(100vh - 150px);
+  }
+  .intro {
+    margin: 0;
+    width: 100%;
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  #picture-about {
+    width: 85%;
+    height: 75%;
+  }
+  #about {
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .button-contact {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: center;
+  }
+  #pr {
+    font-size: 10px;
+    margin: 0;
+  }
+}

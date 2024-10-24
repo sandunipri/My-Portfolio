@@ -12,290 +12,20 @@
       href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/home.css" />
+    <link rel="stylesheet" href="/CSS/about.css" />
+    <link rel="stylesheet" href="/CSS/skill.css" />
     <style>
-      body {
-        margin: 0;
-        font-family: "Arima", system-ui;
-        /* background: linear-gradient(
-          90deg,
-          rgba(2, 0, 36, 1) 10%,
-          rgba(9, 9, 121, 1) 80%,
-          rgb(165, 6, 186) 100%
-        ); */
-        background-image: url(/assects/images/wallpaper.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-      }
-      header {
-        width: 90%;
-        height: 70px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 20px;
-        color: white;
-        border-radius: 50px;
-        margin: 10px auto;
-        background-color: black;
-      }
-      .page {
-        width: 80%;
-        height: calc(100vh - 100px);
-        background: linear-gradient(
-          90deg,
-          rgba(2, 0, 36, 1) 20%,
-          rgba(9, 9, 121, 1) 85%,
-          rgb(140, 47, 222) 100%
-        );
-        margin: 0 auto;
-        margin-bottom: 50px;
-        border-radius: 50px;
-        padding: 0 50px;
-      }
-      .content {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-      }
-      .LogoAndName {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-      }
-      #Logo {
-        width: 50px;
-        height: 50px;
-        object-fit: cover;
-        border-radius: 50%;
-      }
-      #name {
-        font-size: 20px;
-        font-weight: bold;
-        margin-left: 10px;
-      }
-      a {
-        text-decoration: none;
-        color: white;
-        font-size: 20px;
-        margin-left: 20px;
-      }
-      .nav {
-        display: flex;
-        flex-direction: row;
-        margin-left: 50px;
-      }
-      .button {
-        width: 120px;
-        height: 50px;
-        border-radius: 50px;
-        border: none;
-        background-color: purple;
-        color: white;
-        font-weight: bold;
-        font-size: 15px;
-      }
-      .hero {
-        width: 80%;
-        height: calc(100vh - 120px);
-        /* background: radial-gradient(
-          circle,
-          rgba(255, 255, 255, 1) 0%,
-          rgb(49, 4, 107) 100%
-          ); */
-        background: linear-gradient(
-          90deg,
-          rgba(2, 0, 36, 1) 20%,
-          rgba(9, 9, 121, 1) 85%,
-          rgb(140, 47, 222) 100%
-        );
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        /* justify-content: center; */
-        margin: 0 auto;
-        margin-bottom: 50px;
-        border-radius: 50px;
-        color: white;
-        padding: 0 50px;
-      }
-      .image {
-        width: 35%;
-        height: calc(100vh - 200px);
-        margin: 0 10px;
-        border-radius: 30%;
-        overflow: hidden;
 
-        /* background-color: blue; */
-      }
-      #picture {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        /* opacity: 0.6; */
-      }
-      .icons {
-        width: 15%;
-        height: calc(100vh - 120px);
-        color: black;
-        display: flex;
-        flex-direction: column;
-        row-gap: 20px;
-        font-size: 40px;
-        align-items: center;
-        justify-content: center;
-        /* background-color: chartreuse; */
-      }
-      .description {
-        width: 50%;
-        height: calc(100vh - 120px);
-        /* background-color: brown; */
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        row-gap: 20px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-      }
-      #topic {
-        margin: 0;
-        font-size: 40px;
-      }
-      #FullName {
-        margin: 0;
-        font-size: 70px;
-        font-weight: 800;
-      }
-      #bio {
-        padding-top: 10px;
-        font-size: 20px;
-      }
-
-      /* About page CSS */
-      .AboutPge {
-        color: white;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        row-gap: 10px;
-        text-align: center;
-      }
-      .dec {
-        width: 50%;
-        height: calc(100vh - 150px);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .intro {
-        width: 50%;
-        height: calc(100vh - 150px);
-      }
-      #picture-about {
-        width: 75%;
-        height: 85%;
-        object-fit: cover;
-        border-radius: 50%;
-        /* border: 5px solid white; */
-        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
-        z-index: 1;
-      }
-      /* #circle-image {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        object-fit: cover;
-
-       
-      } */
-      #about {
-        font-size: 100px;
-        margin-top: 50px;
-      }
-      .contact {
-        margin-top: 30px;
-      }
-
-      /* skills CSS */
-      .skill {
-        display: flex;
-        flex-direction: column;
-      }
-      .topicSkill {
-        margin: 0;
-        width: 100%;
-        height: 30%;
-        display: flex;
-        color: white;
-        font-size: 130px;
-        align-items: center;  
-        justify-content: center;
-      }
-      .circle-set {
-        width: 100%;
-        height: 70%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .square {
-        width: calc(100% / 6);
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        row-gap: 20px;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .circle {
-        width: 70%;
-        height: 40%;
-        background-color: black;
-        border-radius: 50%;
-        color: white;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 30px;
-        font-weight: bold;
-        border: 15px solid gray;
-      }
-      .text {
-        font-size: 15px;
-        font-weight: bold;
-        text-align: center;
-        color: aliceblue;
-      }
-      /* projects CSS */
-      .projects {
-      }
-      /* servces CSS */
-
-      .services {
-      }
     </style>
   </head>
   <body>
     <header>
       <div class="content">
         <div class="LogoAndName">
-          <div>
-            <img
-              id="Logo"
-              src="/assects/images/my image.jpg"
-              alt="Logo image"
-            />
-          </div>
+          <img id="Logo" src="/assects/images/my image.jpg" alt="Logo image" />
+
           <div id="name">H.S.S.Priyadarshani</div>
         </div>
         <div class="nav">
@@ -305,9 +35,22 @@
           <a href="#">Skills</a>
           <a href="#">Services</a>
         </div>
+        <i class="fa fa-bars burger" id="burgerbtn" aria-hidden="true"></i>
       </div>
       <button class="button">Contact me</button>
+      <!--burger button-->
+      <div class="menu-list" id="menuList">
+        <button class="closebtn" id="closeBtn">&times;</button>
+        <nav class="menu">
+          <a href="#">Home</a>
+          <a href="#">About me</a>
+          <a href="#">Projects</a>
+          <a href="#">Skills</a>
+          <a href="#">Services</a>
+        </nav>
+      </div>
     </header>
+
     <main>
       <section class="hero page">
         <section class="description">
@@ -318,15 +61,21 @@
             java software Engineering
           </p>
         </section>
-        <section class="image">
-          <img id="picture" src="/assects/images/my image.jpg" alt="my image" />
-        </section>
-        <section class="icons">
-          <i class="fa-brands fa-whatsapp"></i>
-          <i class="fa-brands fa-github"></i>
-          <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-telegram"></i>
-          <i class="fa-brands fa-facebook"></i>
+        <section class="profile">
+          <section class="image">
+            <img
+              id="picture"
+              src="/assects/images/my image.jpg"
+              alt="my image"
+            />
+          </section>
+          <section class="icons">
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-facebook"></i>
+          </section>
         </section>
       </section>
 
@@ -342,7 +91,7 @@
         </section>
         <section class="intro">
           <div id="about">About Me ?...</div>
-          <p>
+          <p id="pr">
             An undergraduate student, at the Institute of Java and Software
             Engineering (IJSE), where I am pursuing a degree in Software
             Engineering. My academic journey has equipped me with a solid
@@ -351,7 +100,7 @@
             education and is committed to achieving my goals in the software
             engineering industry.
           </p>
-          <button class="button contact">Contact me</button>
+          <button class="button-contact">Contact me</button>
         </section>
       </section>
 
@@ -392,5 +141,6 @@
 
       <!-- <section class="services page"></section> -->
     </main>
+    <script src="/js/home.js"></script>
   </body>
 </html>
