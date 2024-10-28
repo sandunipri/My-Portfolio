@@ -38,7 +38,7 @@ header {
   font-weight: bold;
   margin-left: 10px;
 }
-a {
+.link {
   text-decoration: none;
   color: white;
   font-size: 20px;
@@ -54,8 +54,8 @@ a {
   height: 50px;
   border-radius: 50px;
   border: none;
-  background-color: purple;
-  color: white;
+  background-color: white;
+  color: black;
   font-weight: bold;
   font-size: 15px;
 }
@@ -100,18 +100,28 @@ a {
   object-fit: cover;
   /* opacity: 0.6; */
 }
-.icons {
+.icons  {
   width: 15%;
   height: calc(100vh - 120px);
   color: white;
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
-  font-size: 40px;
+  row-gap: 40px;
+  font-size: 30px;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   /* background-color: chartreuse; */
 }
+.sociallink{
+ width: 30px;
+ height: 30px;
+ text-decoration: none;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ row-gap: 30px;
+} 
 .description {
   width: 50%;
   height: calc(100vh - 120px);
@@ -211,7 +221,6 @@ a {
     align-items: center;
     margin: 0 auto;
     color: white;
-
   }
   .description {
     width: 75%;
@@ -278,7 +287,7 @@ a {
     width: 70%;
     height: 50px;
   }
-  a {
+  .link {
     font-size: 10px;
   }
   .menu-list {
@@ -347,7 +356,6 @@ a {
     font-size: 20px;
   }
 
-
   .profile {
     display: flex;
     flex-direction: column;
@@ -384,7 +392,7 @@ a {
     width: 80%;
     height: 50px;
   }
-  a {
+  .link {
     font-size: 10px;
   }
   .menu-list {
@@ -489,7 +497,7 @@ a {
     width: 80%;
     height: 60px;
   }
-  a {
+  .link {
     font-size: 10px;
   }
   .menu-list {
@@ -594,7 +602,7 @@ a {
     width: 80%;
     height: 60px;
   }
-  a {
+  .link{
     font-size: 10px;
   }
   .menu-list {
@@ -605,7 +613,6 @@ a {
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  
   body {
     row-gap: 20px;
   }
@@ -650,12 +657,9 @@ a {
     flex-direction: column;
     column-gap: 10px;
     font-size: 30px;
-   
   }
- 
 }
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
-    
   body {
     row-gap: 20px;
   }
@@ -700,7 +704,5 @@ a {
     flex-direction: column;
     column-gap: 10px;
     font-size: 30px;
-   
   }
- 
 }
