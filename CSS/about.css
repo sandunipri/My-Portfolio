@@ -1,6 +1,3 @@
-
-
-
 .AboutPge {
   color: white;
   display: flex;
@@ -46,7 +43,9 @@
   font-size: 15px;
 }
 
-@media screen and (max-width: 425px) {
+
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
   .AboutPge {
     display: flex;
     flex-direction: column;
@@ -93,4 +92,204 @@
     font-size: 10px;
     margin: 0;
   }
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .AboutPge {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .page {
+    width: 80%;
+    height: calc(100vh - 150px);
+    padding: 0 20px;
+    border-radius: 20px;
+  }
+  .dec {
+    width: 60%;
+    height: calc(100vh - 150px);
+  }
+  .intro {
+    margin: 0;
+    width: 100%;
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #picture-about {
+    width: 85%;
+    height: 75%;
+  }
+  #about {
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .button-contact {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: center;
+  }
+  #pr {
+    font-size: 10px;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 426px) {
+  .AboutPge {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .page {
+    width: 80%;
+    height: calc(100vh - 150px);
+    padding: 0 20px;
+    border-radius: 20px;
+  }
+  .dec {
+    width: 60%;
+    height: calc(100vh - 150px);
+  }
+  .intro {
+    margin: 0;
+    width: 100%;
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #picture-about {
+    width: 85%;
+    height: 75%;
+  }
+  #about {
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .button-contact {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: center;
+  }
+  #pr {
+    font-size: 10px;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 769px) {
+  .AboutPge {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  .page {
+    width: 80%;
+    height: calc(100vh - 150px);
+    padding: 0 20px;
+    border-radius: 20px;
+  }
+  .dec {
+    width: 60%;
+    height: calc(100vh - 150px);
+  }
+  .intro {
+    margin: 0;
+    width: 100%;
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #picture-about {
+    width: 100%;
+    height: 60%;
+  }
+  #about {
+    width: 100%;
+    height: auto;
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .button-contact {
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+  #pr {
+    font-size: 15px;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .AboutPge {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  .page {
+    width: 80%;
+    height: calc(100vh - 150px);
+    padding: 0 20px;
+    border-radius: 20px;
+  }
+  .dec {
+    width: 60%;
+    height: calc(100vh - 150px);
+  }
+  .intro {
+    margin: 0;
+    width: 100%;
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #picture-about {
+    width: 100%;
+    height: 70%;
+  }
+  #about {
+    width: 100%;
+    height: auto;
+    font-size: 55px;
+    margin: 0;
+  }
+
+  .button-contact {
+    width: 135px;
+    height: 45px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+  #pr {
+    font-size: 15px;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
 }
