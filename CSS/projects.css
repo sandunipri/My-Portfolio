@@ -7,7 +7,13 @@
     rgba(9, 9, 121, 1) 85%,
     rgb(140, 47, 222) 100%
   ); */
-  background-color: black;
+  background: linear-gradient(
+    90deg,
+    rgb(1, 1, 1) 10%,
+    rgb(32, 32, 32) 80%,
+    rgb(80, 80, 80) 100%
+  );
+  box-shadow: 0 0 20px white;
   margin: 0 auto;
   margin-bottom: 50px;
   border-radius: 50px;

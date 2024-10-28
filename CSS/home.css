@@ -103,7 +103,7 @@ a {
 .icons {
   width: 15%;
   height: calc(100vh - 120px);
-  color: black;
+  color: white;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
@@ -524,24 +524,24 @@ a {
   }
   .hero {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     align-items: center;
     margin: 0 auto;
     color: white;
   }
   .description {
-    width: 75%;
-    height: 30%;
-    row-gap: 10px;
+    width: 80%;
+    height: 40%;
+    row-gap: 7px;
   }
   #topic {
     margin: 0;
-    font-size: 20px;
+    font-size: 15px;
   }
   #FullName {
     margin: 0;
     padding: 0;
-    font-size: 30px;
+    font-size: 25px;
   }
   #bio {
     margin: 0;
@@ -553,17 +553,16 @@ a {
     height: auto;
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     column-gap: 10px;
-    font-size: 25px;
-   
+    font-size: 20px;
   }
+
   .profile {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
-    height: 100%;
-    align-items: center;
+    height: 70%;
     justify-content: space-between;
   }
 
@@ -582,27 +581,27 @@ a {
     object-fit: cover;
   }
   #burgerbtn {
-    font-size: 20px;
+    font-size: 15px;
   }
   #Logo {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
   #name {
     font-size: 20px;
   }
   header {
-    width: 90%;
-    height: 70px;
+    width: 80%;
+    height: 60px;
   }
   a {
-    font-size: 15px;
+    font-size: 10px;
   }
   .menu-list {
-    width: 250px;
+    width: 170px;
   }
   .closebtn {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
