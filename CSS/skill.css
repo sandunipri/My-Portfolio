@@ -293,12 +293,6 @@
     flex-direction: column;
     width: 80%;
     height: calc(100vh - 100px);
-    /* background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 20%,
-      rgba(9, 9, 121, 1) 85%,
-      rgb(140, 47, 222) 100%
-    ); */
     background-color: black;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -363,12 +357,6 @@
     flex-direction: column;
     width: 80%;
     height: calc(100vh - 100px);
-    /* background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 20%,
-      rgba(9, 9, 121, 1) 85%,
-      rgb(140, 47, 222) 100%
-    ); */
     background-color: black;
     margin: 0 auto;
     margin-bottom: 50px;
