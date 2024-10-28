@@ -17,9 +17,14 @@
   );
   box-shadow: 0 0 20px white;
   margin: 0 auto;
-  margin-bottom: 50px;
   border-radius: 50px;
   padding: 0 50px;
+}
+#PROJECTS {
+  padding-top: 90px;
+}
+#SKILL {
+  padding-top: 90px;
 }
 .topicSkill {
   margin: 0;
@@ -295,7 +300,6 @@
     height: calc(100vh - 100px);
     background-color: black;
     margin: 0 auto;
-    margin-bottom: 50px;
     padding: 0 20px;
     border-radius: 20px;
   }
@@ -359,7 +363,6 @@
     height: calc(100vh - 100px);
     background-color: black;
     margin: 0 auto;
-    margin-bottom: 50px;
     padding: 0 20px;
     border-radius: 20px;
   }

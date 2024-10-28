@@ -46,6 +46,7 @@ footer {
     rgb(32, 32, 32) 80%,
     rgb(80, 80, 80) 100%
   );
+  margin-top: 50px;
   color: rgb(252, 248, 248);
   display: flex;
   flex-direction: column;
@@ -137,7 +138,7 @@ textarea {
     display: flex;
     flex-direction: row;
     cursor: pointer;
-    column-gap: 30px;
+
   }
   .lastLine {
     text-align: center;
@@ -212,7 +213,6 @@ textarea {
     box-shadow: 0 0 20px white;
   } 
 }
-
 @media screen and (min-width: 320px) and (max-width: 375px) {
   .footer {
     width: 100%;
@@ -247,7 +247,6 @@ textarea {
     display: flex;
     flex-direction: row;
     cursor: pointer;
-    column-gap: 30px;
   }
   .lastLine {
     text-align: center;
@@ -356,7 +355,6 @@ textarea {
     display: flex;
     flex-direction: row;
     cursor: pointer;
-    column-gap: 30px;
   }
   .lastLine {
     text-align: center;
@@ -464,7 +462,6 @@ textarea {
     display: flex;
     flex-direction: row;
     cursor: pointer;
-    column-gap: 30px;
   }
   .lastLine {
     text-align: center;

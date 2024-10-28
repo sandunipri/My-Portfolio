@@ -16,9 +16,10 @@ header {
   transform: translateX(-50%);
   z-index: 1;
   border: 1px solid white;
-  
 }
-
+#HOME {
+  padding-top: 90px;
+}
 .content {
   display: flex;
   flex-direction: row;
@@ -102,7 +103,7 @@ header {
   object-fit: cover;
   /* opacity: 0.6; */
 }
-.icons  {
+.icons {
   width: 15%;
   height: calc(100vh - 120px);
   color: white;
@@ -115,15 +116,15 @@ header {
   cursor: pointer;
   /* background-color: chartreuse; */
 }
-.sociallink{
- width: 30px;
- height: 30px;
- text-decoration: none;
- color: white;
- display: flex;
- flex-direction: column;
- row-gap: 30px;
-} 
+.sociallink {
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
 .description {
   width: 50%;
   height: calc(100vh - 120px);
@@ -192,6 +193,14 @@ header {
   position: absolute;
   top: 10px;
   right: 20px;
+}
+
+#Cbtn {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 20px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 320px) {
@@ -591,7 +600,7 @@ header {
     object-fit: cover;
   }
   #burgerbtn {
-    font-size: 15px;
+    font-size: 17px;
   }
   #Logo {
     width: 30px;
@@ -604,14 +613,17 @@ header {
     width: 80%;
     height: 60px;
   }
-  .link{
-    font-size: 10px;
+  .link {
+    font-size: 16px;
+  }
+  #Cbtn {
+    font-size: 20px;
   }
   .menu-list {
-    width: 170px;
+    width: 200px;
   }
   .closebtn {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {

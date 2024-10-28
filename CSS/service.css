@@ -1,12 +1,6 @@
 .services {
   width: 80%;
   height: auto;
-  /* background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 20%,
-    rgba(9, 9, 121, 1) 85%,
-    rgb(140, 47, 222) 100%
-  ); */
    background: linear-gradient(
     90deg,
     rgb(1, 1, 1) 10%,
@@ -15,13 +9,15 @@
   );
   box-shadow: 0 0 20px white;
   margin: 0 auto;
-  margin-bottom: 50px;
   border-radius: 50px;
   padding: 0 50px;
   color: white;
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+#SERVICES {
+  padding-top: 90px;
 }
 
 .topicService {
@@ -61,8 +57,6 @@
   .services {
     width: 80%;
     height: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
     border-radius: 20px;
     padding: 0 20px;
     display: flex;
@@ -111,8 +105,6 @@
   .services {
     width: 80%;
     height: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
     border-radius: 20px;
     padding: 0 20px;
     display: flex;
@@ -161,8 +153,7 @@
   .services {
     width: 80%;
     height: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+
     border-radius: 20px;
     padding: 0 20px;
     display: flex;
@@ -209,8 +200,6 @@
   .services {
     width: 80%;
     height: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
     border-radius: 20px;
     padding: 0 20px;
     display: flex;
@@ -258,8 +247,6 @@
   .services {
     width: 80%;
     height: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
     border-radius: 20px;
     padding: 0 20px;
     display: flex;
@@ -304,8 +291,7 @@
   .services {
     width: 80%;
     height: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+
     border-radius: 20px;
     padding: 0 20px;
     display: flex;
