@@ -292,4 +292,52 @@
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .AboutPge {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  .page {
+    width: 80%;
+    height: calc(100vh - 150px);
+    padding: 0 20px;
+    border-radius: 20px;
+  }
+  .dec {
+    width: 60%;
+    height: calc(100vh - 150px);
+  }
+  .intro {
+    margin: 0;
+    width: 100%;
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #picture-about {
+    width: 100%;
+    height: 70%;
+  }
+  #about {
+    width: 100%;
+    height: auto;
+    font-size: 55px;
+    margin: 0;
+  }
+
+  .button-contact {
+    width: 135px;
+    height: 45px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+  #pr {
+    font-size: 15px;
+    margin: 0;
+  }
 }
